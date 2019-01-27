@@ -7,11 +7,11 @@ particlesJS('particles-js', {
 			value: '#fff'
 		},
 		opacity: {
-			value: 0.5,
+			value: 0.9,
 			random: true,
 			anim: {
 				enable: false,
-				speed: 1
+				speed: 4
 			}
 		},
 		size: {
