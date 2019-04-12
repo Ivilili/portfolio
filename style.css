@@ -9,7 +9,7 @@ body {
 }
 
 .parallax1 {
-	background-image: linear-gradient(300deg, #20504e 0, #392e40 65%);
+	background-image: url('sky.jpg');
 	min-height: 100vh;
 	width: 100%;
 	background-attachment: fixed;
@@ -21,8 +21,8 @@ body {
 	text-shadow: 0 0 5px #000;
 	overflow: hidden;
 }
+
 .title {
-	font-style: italic;
 	font-weight: bold;
 	font-size: 2em;
 }
@@ -36,24 +36,7 @@ body {
 	transform: translate(-50%, -50%);
 	color: white;
 }
-.title-text button {
-	border: none;
-	outline: 0;
-	display: inline-block;
-	font-family: 'Dancing Script', cursive;
-	font-size: 18px;
-	padding: 10px 25px;
-	color: #fff;
-	background-color: #483950;
-	text-align: center;
-	cursor: pointer;
-	margin-top: 30px;
-}
-.title-text button:hover {
-	background-color: #27605d;
-	box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.8);
-	transition: all 0.4s ease-out;
-}
+
 .icons {
 	font-size: 18px;
 	text-align: center;
@@ -64,7 +47,7 @@ body {
 }
 
 .icons a:hover {
-	color: #392e40;
+	color: #27605d;
 	transition: all 0.5s ease-out;
 	font-size: 18px;
 }
@@ -110,8 +93,8 @@ nav ul li a {
 	font-weight: 600;
 }
 .static {
-	background-image: linear-gradient(120deg, #c7b9d0 0, #ffffff 100%);
-	background-color: #d2c7d9;
+	/*	background-image: linear-gradient(120deg, #c7b9d0 0, #ffffff 100%); */
+	background-color: #d9d9d9;
 	color: #000000;
 	overflow: hidden;
 	padding: 5%;
@@ -123,7 +106,7 @@ nav ul li a {
 	padding-right: 10%;
 }
 .parallax {
-	background-image: linear-gradient(300deg, #20504e 0, #392e40 65%);
+	background-image: url('sky.jpg');
 	position: relative;
 	color: #fff;
 	text-shadow: 0 0 5px #000;
