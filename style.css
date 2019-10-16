@@ -157,26 +157,6 @@ h2 {
 	background-size: cover;
 	text-align: center;
 }
-.boxes {
-	padding: 10%;
-	margin-top: 10%;
-	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
-}
-
-/*
-form .form {
-	display: inline-block;
-	padding: 30px 46px;
-	margin: 10px;
-	line-height: 1.2rem;
-	overflow: hidden;
-	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
-	border-radius: 5px;
-	background-color: #23415a;
-	opacity: 0.95;
-	color: #ffffff;
-}
-*/
 
 form input[type=text],
 input[type=email],
@@ -300,18 +280,15 @@ a {
 	border-radius: 3px;
 }
 
-.btn-dark,
-.btn-light {
+.btn {
 	padding: 0.5rem;
 	font-size: 18px;
 	margin: 0.5rem;
 	color: rgba(30, 108, 217);
 	float: right;
 }
-.btn-dark:hover,
-.btn-light:hover {
-	background: #23415a;
-	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+.btn:hover {
+	color: #23415a;
 }
 
 #main-footer {
