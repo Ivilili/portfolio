@@ -181,11 +181,12 @@
      </div>
      <form class="form" name="contact" method="POST" data-netlify="true">
         
-          <label> <input class="field-style" type="text" name="name" placeholder="Your Name"  required/></label> 
+          <label> <input class="field-style" type="text" name="name" placeholder="Name"  required/></label> 
         
-          <label> <input class="field-style" type="email" name="email" placeholder="Your Email" required/></label>
+          <label> <input class="field-style" type="email" name="email" placeholder="Email" required/></label>
         
           <label> <textarea class="field-style" name="message" placeholder="Message" rows="6" ></textarea></label>
+         <div data-netlify-recaptcha="true"></div>
         
           <button class="submit-btn" type="submit">Send</button>
         
