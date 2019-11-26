@@ -105,7 +105,7 @@ nav ul li a {
 }
 
 .parallax {
-	background-image: url('bg-2.jpg');
+	background-image: url('./img/bg-2.jpg');
 	position: relative;
 	color: #fff;
 	text-shadow: 0 0 5px #000;
@@ -150,7 +150,8 @@ h2 {
 	margin-left: 1rem;
 }
 #contact {
-	background-image: linear-gradient(to right bottom, rgba(35, 65, 90, 0.8), rgb(47, 70, 105, 0.6)), url('bg-2.jpg');
+	background-image: linear-gradient(to right bottom, rgba(35, 65, 90, 0.8), rgb(47, 70, 105, 0.6)),
+		url('./img/bg-2.jpg');
 	position: relative;
 	color: #fff;
 	text-shadow: 0 0 5px #000;
@@ -298,8 +299,8 @@ a {
 
 #main-footer {
 	text-align: center;
-	padding: 1rem;
-	height: 60px;
+	padding: 0.8rem;
+	height: 40px;
 	background-image: linear-gradient(to right bottom, rgba(76, 216, 255), rgba(30, 108, 217));
 	color: #fff;
 }
