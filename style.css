@@ -21,8 +21,10 @@ body {
 	height: 160px;
 	margin: auto;
 	border-radius: 50%;
-	opacity: 0.9;
 	border: solid 3px #fff;
+	background-image: url("./img/profileimg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .title {
