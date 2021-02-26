@@ -242,24 +242,9 @@ form .submit-btn:hover {
 	background-color: #ffffff;
 	font-weight: 600;
 }
-.description:before {
-	transform: skewX(-3.0deg);
-	content: "";
-	background-color: #ffffff;
-	width: 30px;
-	position: absolute;
-	left: -10px;
-	top: 0;
-	bottom: 0;
-	z-index: 3;
-}
+
 .alt {
 	flex-direction: row-reverse;
-}
-.alt .description:before {
-	left: inherit;
-	right: -10px;
-	transform: skew(3deg);
 }
 
 .description h3 {
